@@ -85,7 +85,7 @@ Called only once, just before the component is removed from the DOM:
 
 |        Method        | nextProps | nextState | Can call `this.setState` |                     Called when?                    |                         Used for                        |
 |:--------------------:|:---------:|:---------:|:----------------------:|:---------------------------------------------------:|:-------------------------------------------------------:|
-| `componentWillUnmount` |     no    |     no    |           no           | once, just before component is removed form the DOM | destroying any side effects set up in `componentDidMount` |
+| `componentWillUnmount` |     no    |     no    |           no           | once, just before component is removed from the DOM | destroying any side effects set up in `componentDidMount` |
 
 
 ## Resources
